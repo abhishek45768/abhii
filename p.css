@@ -6,15 +6,7 @@
 html{
     scroll-behavior:smooth;
 }
-@media(max-width:667px)  {
-    html{
-        font-size: 55%;
-    }
-    div{
-        height: 55%;
-        width: 55%;
-    }
-}
+
 #home{
     position: relative;
     top: 0;
@@ -429,4 +421,414 @@ footer{
     position: absolute;
     left: 810px;
     top: 2050px;
+}
+@media(max-width:600px)  {
+   
+html{
+    scroll-behavior:smooth;
+}
+
+#home{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 4rem;
+    box-shadow: 0rem 0rem 1.6rem 0rem gray;
+    
+}
+
+img{
+    position: absolute;
+    height: 30px;
+    border-radius: 30px;
+    width:30px ;
+    left:6px; 
+    top:5px;
+}
+h2{
+    position: absolute;
+    left:40px;
+    top:15px;
+    font-family:cursive;
+    font-size:10px;
+}
+
+.menuiteams{
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    left:120px;
+    top:30px;
+    font-size:14px;
+    cursor: pointer;
+    font-family:cursive;
+}
+.menuiteams1{
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    left:180px;
+    top:30px;
+    font-size:14px;
+    cursor: pointer;
+    font-family:cursive;
+}
+.menuiteams1:hover{
+    color: rgb(136, 136, 136);
+  }
+.menuiteams3{
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    left:240px;
+    top:30px;
+    font-size:14px;
+    cursor: pointer;
+    font-family:cursive;
+}
+.menuiteams3:hover{
+    color: rgb(136, 136, 136);
+}
+.menuiteams4{
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    left:310px;
+     font-size:14px;
+    top:30px;
+    cursor: pointer;
+    font-family:cursive;
+}
+.menuiteams4:hover{
+    color: rgb(136, 136, 136);
+}
+.center{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.container{
+    position: relative;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+}
+.image{
+    border: 2px solid yellow;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 150px;
+    top:15px;
+    left:250px;
+    animation: image 2s;
+    box-shadow: 0px 0px 20px 0px rgb(142, 237, 9);
+    background-image: url('images.jpg');
+}
+@keyframes image{
+    0%{
+        left:101%;
+        top: 15px;
+    }
+    100%{
+        top: 15px;
+        left: 250px;
+    }
+}
+.intro{
+    position: absolute;
+    top:20px;
+    left:10px;
+     font-size:14px;
+}
+.name{
+    position:absolute;
+    top:36px;
+    left:47px;
+    color:yellowgreen;
+     font-size:14px;
+}
+.line{
+    position: absolute;
+    top:50px;
+    left:10px;
+     font-size:10px;
+}
+.about{
+    height: 20px;
+    width: 60px;
+    position: absolute;
+    background-color: rgb(53, 53, 254);
+    border-radius: 50px;
+    left: 19px;
+    top:70px;
+    box-shadow: 0px 0px 10px 0px blue;
+    cursor: pointer;
+    transition: 1s;
+}
+.about:hover{
+    background-color: skyblue;
+}
+.child1
+{
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+     font-size:8px;
+}
+.icons{
+    float: left;
+    position: relative;
+    left: 10px;
+    top:  90px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 0.8em ;
+}
+.drop_down_arrow{
+    position: absolute;
+    left:45px;
+    top: -40x;
+    font-size: 0.5em;
+    cursor: pointer;
+    
+}
+#about_section{
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    box-shadow: 0px 0px 30px 0px black;
+}
+.aboutimg{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: 1px solid gray;
+    position: absolute;
+    top:10px;
+    left:10px;
+    background-image: url('imgabout.jpg');
+    box-shadow: 0px 0px 20px 0px gray;
+}
+.aboutinfo{
+    height: 509px;
+    width: 400px;
+    color: honeydew;
+    font-family: cursive;
+    position: absolute;
+    left: 120px;
+    top: 0px;
+}
+fieldset{
+    height: 250px;
+    width: 200px;
+    overflow: auto;
+    font-size: 14px;
+    box-shadow: 0px 0px 20px 0px gray;
+}
+#education{
+    height: 250px;
+    width: 100%;
+    background-color:#1d3557 ;
+    position: relative;
+}
+.headingprj{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    left: 0px;
+    color: honeydew;
+}
+
+.container2{
+    position: absolute;
+    height:190px ;
+    width: 310px;
+    background-color: white;
+    left:10px;
+    top:50px;
+    box-shadow: 0px 0px 20px 0px black;
+}
+#contact{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(10, 10, 10) ;
+    position: relative;
+    box-shadow: 0px 0px 30px 0px black;
+}
+.heading{
+    position: absolute;
+    color: bisque;
+    font-size: 30px;
+    left:90px;
+    top:10px;
+}
+.line2{
+    position: absolute;
+    color: bisque;
+    font-size: 10px;
+    left: 65px;
+    top: 50px;
+    font-family: cursive;
+}
+.email{
+    position: absolute;
+    color: silver;
+    font-family: cursive;
+    left: 2px;
+    top: 110px;
+    font-size: 10px;
+}
+.email-icon{
+    position: absolute;
+    left: 60px;
+    top: -15px;
+}
+.number{
+    position: absolute;
+    color: silver;
+    font-family: cursive;
+    left:170px;
+    top: 110px;
+    font-size: 10px;
+}
+.wp-icon{
+    position: absolute;
+    left: 25px;
+    top: -15px;
+}
+u{
+    color: bisque;
+}
+iframe{
+    overflow: scroll;
+    height: 190px;
+    width: 310px ;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.contact{
+    position: absolute;
+    color: silver;
+    font-family: cursive;
+    left: 300px;
+    top: 110px;
+    font-size: 10px;
+}
+.phone-logo{
+    position: absolute;
+    left: 25px;
+    top: -15px;
+}
+.above{
+    position: absolute;
+height: 10px;
+width: 50px;
+border-radius: 30px;
+left: 329px;
+border: 5px solid white;
+text-align: center;
+top: 20px;
+cursor: pointer;
+font-size: 10px;
+background-color: honeydew;
+color: black;
+font-weight: bolder;
+box-shadow: 0px 0px 20px 0px honeydew;
+}
+.above_a{
+    position: absolute;
+height: 10px;
+width: 50px;
+border-radius: 30px;
+left: 329px;
+border: 5px solid white;
+text-align: center;
+top: 110px;
+cursor: pointer;
+font-size: 10px;
+background-color: honeydew;
+color: black;
+font-weight: bolder;
+box-shadow: 0px 0px 20px 0px honeydew;
+text-decoration: none;
+}
+.above_b{
+    text-decoration: none;
+    position: absolute;
+height: 10px;
+width: 50px;
+border-radius: 30px;
+left: 329px;
+border: 5px solid white;
+text-align: center;
+top: 200px;
+cursor: pointer;
+font-size: 10px;
+background-color: honeydew;
+color: black;
+font-weight: bolder;
+box-shadow: 0px 0px 20px 0px honeydew;
+}
+
+.above1{
+    position: absolute;
+    height: 10px;
+    width: 50px;
+    border-radius: 30px;
+    left: 500px;
+    border: 5px solid white;
+    text-align: center;
+    top: 3x;
+    cursor: pointer;
+    font-size: 10px;
+    background-color: honeydew;
+    color: black;
+    font-weight: bolder;
+    box-shadow: 0px 0px 20px 0px honeydew;
+}
+.above:hover{
+    background-color: skyblue;
+    color:#1d3557;
+    border: 5px solid skyblue ;
+    box-shadow: 0px 0px 20px 0px skyblue;
+}
+.above_a:hover{
+    background-color: skyblue;
+    color:#1d3557;
+    border: 5px solid skyblue ;
+    box-shadow: 0px 0px 20px 0px skyblue;
+}
+.above_b:hover{
+    background-color: skyblue;
+    color:#1d3557;
+    border: 5px solid skyblue ;
+    box-shadow: 0px 0px 20px 0px skyblue;
+}
+.above1:hover{
+    background-color: skyblue;
+    color:#1d3557;
+    border: 5px solid skyblue ;
+    box-shadow: 0px 0px 20px 0px skyblue;
+}
+footer{
+    margin: auto;
+    text-align: center;
+    background-color: #000000;
+    color: honeydew;
+    height: auto;
+    width: auto;
+    font-size: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+.nam{
+    color: yellowgreen;
+    position: absolute;
+    left: 260px;
+    top: 800px;
+}
 }
