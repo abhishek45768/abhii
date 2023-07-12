@@ -4,7 +4,7 @@
 }
 .all{
  height:100vw;
- width: 132vw;
+ width: 133vw;
 }
 html{
     scroll-behavior:smooth;
@@ -429,7 +429,7 @@ footer{
     left: 810px;
     top: 2050px;
 }
-@media(max-width:600px)  {
+@media screen and (max-width:390px)  {
    
 html{
     scroll-behavior:smooth;
