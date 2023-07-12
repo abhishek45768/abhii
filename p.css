@@ -2,7 +2,10 @@
     padding: 0px;
     margin: 0px;
 }
-
+.all{
+ height:100vw;
+ width:100vw;    
+}
 html{
     scroll-behavior:smooth;
     height:100vw;
