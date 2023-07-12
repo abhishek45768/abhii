@@ -422,7 +422,7 @@ footer{
     left: 810px;
     top: 2050px;
 }
-@media(max-width:600px)  {
+@media(max-width:390px)  {
    
 html{
     scroll-behavior:smooth;
