@@ -516,7 +516,7 @@ h2{
 }
 .container{
     position: relative;
-    height: 150px;
+    height: 172px;
     width: 100%;
     overflow: hidden;
 }
@@ -605,7 +605,7 @@ h2{
     
 }
 #about_section{
-    height: 250px;
+    height: 430px;
     width: 100%;
     background-color: black;
     position: relative;
@@ -633,16 +633,16 @@ h2{
     top: 0px;
 }
 fieldset{
-    height: 250px;
+    height: 411px;
     width: 251px;
     overflow: auto;
     font-size: 14px;
     box-shadow: 0px 0px 20px 0px gray;
 }
 #education{
-    height: 250px;
+    height: 297px;
     width: 100%;
-    background-color:#1d3557 ;
+    background-color:#1d3557;
     position: relative;
 }
 .headingprj{
@@ -655,7 +655,7 @@ fieldset{
 
 .container2{
     position: absolute;
-    height:190px;
+    height: 238px;
     width: 365px;
     background-color: white;
     left:10px;
@@ -715,7 +715,7 @@ u{
 }
 iframe{
     overflow: scroll;
-    height: 189px;
+    height: 236px;
     width: 365px;
     border: 1px solid black;
     cursor: pointer;
@@ -838,6 +838,6 @@ footer{
     color: yellowgreen;
     position: absolute;
     left: 323px;
-    top: 800px;
+    top: 1049px;
 }
 }
