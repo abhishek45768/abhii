@@ -4,7 +4,7 @@
 }
 .all{
  height:100vw;
- width:100vw;    
+ width: 132vw;
 }
 html{
     scroll-behavior:smooth;
@@ -474,7 +474,7 @@ h2{
     position: absolute;
     height: 40px;
     width: 200px;
-    left: 93px;
+    left: 110px;
     top: 40px;
     font-size:14px;
     cursor: pointer;
@@ -487,7 +487,7 @@ h2{
     position: absolute;
     height: 40px;
     width: 200px;
-    left: 170px;
+    left: 204px;
     top: 40px;
     font-size:14px;
     cursor: pointer;
@@ -500,7 +500,7 @@ h2{
     position: absolute;
     height: 40px;
     width: 200px;
-    left: 258px;
+    left: 316px;
     font-size:14px;
     top: 40px;
     cursor: pointer;
@@ -527,7 +527,7 @@ h2{
     width: 100px;
     border-radius: 150px;
     top:15px;
-    left:250px;
+    left: 300px;
     background-size:cover;
     animation: image 2s;
     box-shadow: 0px 0px 20px 0px rgb(142, 237, 9);
@@ -546,21 +546,21 @@ h2{
 .intro{
     position: absolute;
     top:20px;
-    left:10px;
-     font-size:14px;
+    left: 55px;
+    font-size:14px;
 }
 .name{
     position:absolute;
     top:36px;
-    left:47px;
+    left: 92px;
     color:yellowgreen;
-     font-size:14px;
+    font-size:14px;
 }
 .line{
     position: absolute;
     top:50px;
-    left:10px;
-     font-size:10px;
+    left: 27px;
+    font-size:10px;
 }
 .about{
     height: 20px;
@@ -568,7 +568,7 @@ h2{
     position: absolute;
     background-color: rgb(53, 53, 254);
     border-radius: 50px;
-    left: 19px;
+    left: 70px;
     top:70px;
     box-shadow: 0px 0px 10px 0px blue;
     cursor: pointer;
@@ -590,11 +590,11 @@ h2{
 .icons{
     float: left;
     position: relative;
-    left: 10px;
+    left: 44px;
     top:  90px;
     margin: 5px;
     cursor: pointer;
-    font-size: 0.8em ;
+    font-size: 0.8em;
 }
 .drop_down_arrow{
     position: absolute;
@@ -634,7 +634,7 @@ h2{
 }
 fieldset{
     height: 250px;
-    width: 200px;
+    width: 251px;
     overflow: auto;
     font-size: 14px;
     box-shadow: 0px 0px 20px 0px gray;
@@ -655,8 +655,8 @@ fieldset{
 
 .container2{
     position: absolute;
-    height:190px ;
-    width: 310px;
+    height:190px;
+    width: 365px;
     background-color: white;
     left:10px;
     top:50px;
@@ -673,14 +673,14 @@ fieldset{
     position: absolute;
     color: bisque;
     font-size: 30px;
-    left:90px;
+    left: 170px;
     top:10px;
 }
 .line2{
     position: absolute;
     color: bisque;
     font-size: 10px;
-    left: 65px;
+    left: 149px;
     top: 50px;
     font-family: 'Times New Roman';
 }
@@ -688,7 +688,7 @@ fieldset{
     position: absolute;
     color: silver;
     font-family: 'Times New Roman';
-    left: 2px;
+    left: 41px;
     top: 110px;
     font-size: 10px;
 }
@@ -701,7 +701,7 @@ fieldset{
     position: absolute;
     color: silver;
     font-family: 'Times New Roman';
-    left:170px;
+    left: 233px;
     top: 110px;
     font-size: 10px;
 }
@@ -716,7 +716,7 @@ u{
 iframe{
     overflow: scroll;
     height: 189px;
-    width: 310px ;
+    width: 365px;
     border: 1px solid black;
     cursor: pointer;
 }
@@ -724,7 +724,7 @@ iframe{
     position: absolute;
     color: silver;
     font-family: 'Times New Roman';
-    left: 300px;
+    left: 392px;
     top: 110px;
     font-size: 10px;
 }
@@ -735,53 +735,53 @@ iframe{
 }
 .above{
     position: absolute;
-height: 10px;
-width: 40px;
-border-radius: 30px;
-left: 325px;
-border: 5px solid white;
-text-align: center;
-top: 20px;
-cursor: pointer;
-font-size: 10px;
-background-color: honeydew;
-color: black;
-font-weight: bolder;
-box-shadow: 0px 0px 20px 0px honeydew;
+    height: 10px;
+    width: 40px;
+    border-radius: 30px;
+    left: 400px;
+    border: 5px solid white;
+    text-align: center;
+    top: 20px;
+    cursor: pointer;
+    font-size: 10px;
+    background-color: honeydew;
+    color: black;
+    font-weight: bolder;
+    box-shadow: 0px 0px 20px 0px honeydew;
 }
 .above_a{
     position: absolute;
-height: 10px;
-width: 40px;
-border-radius: 30px;
-left: 325px;
-border: 5px solid white;
-text-align: center;
-top: 110px;
-cursor: pointer;
-font-size: 8px;
-background-color: honeydew;
-color: black;
-font-weight: bolder;
-box-shadow: 0px 0px 20px 0px honeydew;
-text-decoration: none;
+    height: 10px;
+    width: 40px;
+    border-radius: 30px;
+    left: 400px;
+    border: 5px solid white;
+    text-align: center;
+    top: 110px;
+    cursor: pointer;
+    font-size: 8px;
+    background-color: honeydew;
+    color: black;
+    font-weight: bolder;
+    box-shadow: 0px 0px 20px 0px honeydew;
+    text-decoration: none;
 }
 .above_b{
     text-decoration: none;
     position: absolute;
-height: 10px;
-width: 40px;
-border-radius: 30px;
-left: 325px;
-border: 5px solid white;
-text-align: center;
-top: 200px;
-cursor: pointer;
-font-size: 8px;
-background-color: honeydew;
-color: black;
-font-weight: bolder;
-box-shadow: 0px 0px 20px 0px honeydew;
+    height: 10px;
+    width: 40px;
+    border-radius: 30px;
+    left: 400px;
+    border: 5px solid white;
+    text-align: center;
+    top: 200px;
+    cursor: pointer;
+    font-size: 8px;
+    background-color: honeydew;
+    color: black;
+    font-weight: bolder;
+    box-shadow: 0px 0px 20px 0px honeydew;
 }
 
 .above1{
@@ -789,7 +789,7 @@ box-shadow: 0px 0px 20px 0px honeydew;
     height: 10px;
     width: 40px;
     border-radius: 30px;
-    left: 325px;
+    left: 400px;
     border: 5px solid white;
     text-align: center;
     top: 10px;
@@ -837,7 +837,7 @@ footer{
 .nam{
     color: yellowgreen;
     position: absolute;
-    left: 260px;
+    left: 323px;
     top: 800px;
 }
 }
